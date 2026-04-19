@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Pub — Classic Steakhouse &amp; Lounge | Pennsauken, NJ</title>
+  <meta name="description" content="A South Jersey tradition for over 70 years. Famous for slow-roasted Prime Rib, premium steaks, fresh seafood, and classic hospitality at 7600 Kaighns Ave, Pennsauken, NJ.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ────────────────────────────────── NAV ──────────────────────────────────── -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="The Pub – Home">
+        <img src="https://assets.cdn.filesafe.space/nIKo9z57nJSwGPaWxbTC/media/68d32566037a13f926e0e123.png" alt="The Pub logo">
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu-highlights">Menus</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="nav-cta">Reservations</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile nav drawer -->
+  <div id="mobile-menu" class="mobile-menu" role="menu">
+    <a href="#hero" role="menuitem">Home</a>
+    <a href="#about" role="menuitem">About</a>
+    <a href="#menu-highlights" role="menuitem">Menus</a>
+    <a href="#reviews" role="menuitem">Reviews</a>
+    <a href="#faq" role="menuitem">FAQ</a>
+    <a href="#contact" role="menuitem">Reservations</a>
+  </div>
+
+
+  <!-- ───────────────────────────────── HERO ──────────────────────────────────── -->
+  <section id="hero" aria-label="Welcome to The Pub">
+    <div class="hero-bg" role="presentation" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <span class="hero-eyebrow">South Jersey's Premier Steakhouse Since 1950</span>
+      <h1 class="hero-title">
+        Classic Flavors,<br>
+        <em>Timeless</em> Hospitality
+      </h1>
+      <p class="hero-body">
+        Welcome to The Pub — a South Jersey tradition for over 70 years. Famous for our slow-roasted Prime Rib, we serve premium steaks, fresh seafood, and signature cocktails in a warm, storied setting.
+      </p>
+      <div class="hero-actions">
+        <a href="#menu-highlights" class="btn-primary">Explore Our Menu</a>
+        <a href="tel:856-665-6440" class="btn-outline">Call (856) 665-6440</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+
+  <!-- ───────────────────────────────── ABOUT ─────────────────────────────────── -->
+  <section id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Image column -->
+        <div class="about-image-wrap fade-up">
+          <div class="about-image-accent" aria-hidden="true"></div>
+          <div class="about-image-frame">
+            <img
+              src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/nIKo9z57nJSwGPaWxbTC/media/68d412f4c5089924fe19cb14.webp"
+              alt="Prime steak on the charcoal grill at The Pub"
+              loading="lazy">
+          </div>
+          <div class="about-badge" aria-label="Over 70 years in business">
+            <span class="about-badge-num">70+</span>
+            <span class="about-badge-text">Years<br>Serving</span>
+          </div>
+        </div>
+
+        <!-- Text column -->
+        <div class="about-text fade-up" style="transition-delay: 0.15s;">
+          <span class="section-label">Our Story</span>
+          <h2 id="about-heading">
+            A South Jersey Tradition<br><em>for Over 70 Years</em>
+          </h2>
+          <div class="divider divider--left"></div>
+
+          <p>
+            The Pub's story begins in the 1930s, when the building first opened as a nightclub called "Neil Deighan's," named after a well-known local athlete and restaurateur. In 1950, the property was purchased and transformed into The Pub, joining a small local franchise with locations across Philadelphia. By the mid-1980s, the Pennsauken location was the only one remaining — and it still thrives today.
+          </p>
+          <p>
+            After a devastating fire in 1960, The Pub was rebuilt with its signature Tudor design and massive open charcoal hearth, a tradition that continues to set it apart from other steakhouses. Over the decades, the menu has grown from a handful of items to a full selection of steaks, ribs, seafood, and chicken, all served with the famous salad bar.
+          </p>
+          <p>
+            For more than 70 years, The Pub has remained a landmark and family tradition — beloved for its warm atmosphere, quality food, and loyal guests who return generation after generation.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ─────────────────────────── MENU HIGHLIGHTS ─────────────────────────────── -->
+  <section id="menu-highlights" aria-labelledby="menu-heading">
+    <div class="container">
+
+      <div class="menu-header fade-up">
+        <span class="section-label" style="color: var(--gold);">What We Serve</span>
+        <h2 id="menu-heading" style="font-family: 'Playfair Display', serif; font-size: clamp(2.2rem,4vw,3.2rem); font-weight: 600; color: var(--cream); line-height: 1.15;">
+          Food Options
+        </h2>
+        <div class="divider" style="background: var(--gold);"></div>
+      </div>
+
+      <div class="menu-cards" data-stagger>
+
+        <article class="menu-card fade-up">
+          <div class="menu-card-icon"></div>
+          <h3>Prime Steak Selection</h3>
+          <p>
+            From our famous Prime Rib to the New York Strip, Ribeye, Porterhouse, and Filet — each cut is selected for superior quality and grilled to perfection over our signature charcoal hearth.
+          </p>
+          <a href="https://thepubnj.com/menus-2549" class="btn-primary" style="font-size: 11px; padding: 0.7rem 1.6rem; margin-top: auto; align-self: flex-start;">View Full Menu</a>
+        </article>
+
+        <article class="menu-card fade-up">
+          <div class="menu-card-icon"></div>
+          <h3>Famous Salad Bar</h3>
+          <p>
+            A guest favorite for decades. Build your perfect salad from fresh greens, toppings, and house-made dressings — the perfect start to any meal at The Pub.
+          </p>
+          <a href="https://thepubnj.com/menus-2549" class="btn-primary" style="font-size: 11px; padding: 0.7rem 1.6rem; margin-top: auto; align-self: flex-start;">View Full Menu</a>
+        </article>
+
+        <article class="menu-card fade-up">
+          <div class="menu-card-icon"></div>
+          <h3>Seafood &amp; Appetizers</h3>
+          <p>
+            Fresh salmon, crab cakes, shrimp, and more — alongside our popular Combo Sampler appetizer platter, perfect for sharing before your main course.
+          </p>
+          <a href="https://thepubnj.com/menus-2549" class="btn-primary" style="font-size: 11px; padding: 0.7rem 1.6rem; margin-top: auto; align-self: flex-start;">View Full Menu</a>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ──────────────────────────────── REVIEWS ────────────────────────────────── -->
+  <section id="reviews" aria-labelledby="reviews-heading">
+    <div class="reviews-bg-text" aria-hidden="true">Reviews</div>
+    <div class="container reviews-inner">
+      <div class="reviews-header fade-up">
+        <span class="section-label">What Our Guests Say</span>
+        <h2 id="reviews-heading">Reviews</h2>
+        <div class="divider" style="background: var(--gold);"></div>
+      </div>
+      <div class="reviews-widget-wrap fade-up">
+        <iframe
+          id="msgsndr_reviews"
+          src="https://backend.leadconnectorhq.com/appengine/reviews/get_widget/nIKo9z57nJSwGPaWxbTC"
+          scrolling="no"
+          title="Customer reviews for The Pub"
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ────────────────────────────────── FAQ ──────────────────────────────────── -->
+  <section id="faq" aria-labelledby="faq-heading">
+    <div class="container">
+      <div class="faq-layout">
+
+        <!-- Sidebar -->
+        <div class="fade-up">
+          <span class="section-label">Questions</span>
+          <h2 id="faq-heading">
+            Frequently Asked<br><em>Questions</em>
+          </h2>
+          <div class="divider divider--left"></div>
+          <p>
+            Everything you need to know about dining at The Pub. Can't find your answer? Give us a call or drop us an email — we're happy to help.
+          </p>
+        </div>
+
+        <!-- Accordion -->
+        <div class="faq-list fade-up" style="transition-delay: 0.15s;" role="list">
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">How do you cook your steaks to perfection?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                At The Pub, we believe a perfect steak is the result of both art and science. It begins with carefully selected cuts chosen for superior quality and flavor. Our steaks are cooked on a traditional charcoal-grill brick hearth — offering a depth of flavor and sear you simply won't find on a modern gas or electric grill. Our experienced cooks ensure each steak is prepared to the exact temperature you desire.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">What options do you offer for non-steak eaters or those with dietary restrictions?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                While we're famous for our steaks, we're proud to offer a variety of options beyond beef. Our menu features delicious chicken dishes along with seafood favorites like crab cakes, salmon, shrimp, and more. If you have any dietary restrictions or special requests, simply let your server know — we'll be happy to accommodate you to the best of our ability.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              <span class="faq-question-text">Do you offer dining for special occasions or events?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Absolutely! The Pub is proud to host dinners for special occasions and private events. Whether you're planning a family celebration, a business gathering, or something more intimate, we'll work with you to create the perfect experience. Simply give us a call or fill out the form on our Contact page to set up a consultation.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ──────────────────────────────── CONTACT ────────────────────────────────── -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Info -->
+        <div class="fade-up">          
+          <h2 id="contact-heading">Contact Us</h2>
+
+          <div class="contact-details">
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-detail-label">Phone</div>
+                <div class="contact-detail-value"><a href="tel:8566656440" style="color: inherit;">(856) 665-6440</a></div>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-detail-label">Email</div>
+                <div class="contact-detail-value"><a href="mailto:thepubnj@comcast.net" style="color: inherit;">thepubnj@comcast.net</a></div>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-detail-label">Address</div>
+                <div class="contact-detail-value">7600 Kaighns Avenue<br>Pennsauken Township, NJ 08109</div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="contact-hours">
+            <div class="contact-hours-title">Hours of Operation</div>
+            <table aria-label="Opening hours">
+              <tbody>
+                <tr><td>Monday – Friday</td><td>4:00 pm – 10:00 pm</td></tr>
+                <tr><td>Saturday</td><td>3:00 pm – 10:00 pm</td></tr>
+                <tr><td>Sunday</td><td>1:00 pm – 10:00 pm</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="fade-up" style="transition-delay: 0.15s;">
+          <div class="contact-map-wrap">
+            <a href="https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJT9PGqhTJxokR53mbaDgqOhg" target="_blank" rel="noopener noreferrer" aria-label="Open location in Google Maps">
+              <img
+                src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/location%2FnIKo9z57nJSwGPaWxbTC%2Fimages%2FMUALNdk64HszaacS4lhU%2FChIJT9PGqhTJxokR53mbaDgqOhg%2Fmap-kEJfNwlvBB0.jpg?alt=media"
+                alt="Map showing The Pub at 7600 Kaighns Ave, Pennsauken, NJ"
+                loading="lazy">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ──────────────────────────────── FOOTER ─────────────────────────────────── -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="https://assets.cdn.filesafe.space/nIKo9z57nJSwGPaWxbTC/media/68d32566037a13f926e0e123.png" alt="The Pub logo">
+        </div>
+        <p class="footer-copy">
+          &copy; 2025 The Pub &mdash; 7600 Kaighns Ave, Pennsauken, NJ 08109
+        </p>
+        <div class="footer-contact">
+          <a href="tel:8566656440">(856) 665-6440</a><br>
+          <a href="mailto:thepubnj@comcast.net">thepubnj@comcast.net</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
